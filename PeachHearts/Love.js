@@ -15,6 +15,8 @@
       padding: 0;
       margin: 0;
       background: #000;
+      overflow:hidden;
+      touch-action: none;
     }
 
     * {
@@ -26,7 +28,7 @@
 
 <body>
 
-  <canvas id="pinkboard" style="display: block;"></canvas>
+  <canvas id="pinkboard" style="vertical-align:top;"></canvas>
 
   <script>
     // 初始化 画布大小
